@@ -1,5 +1,4 @@
-package jia.begins.examples.basics.bozhidar.batsov;
-
+package jia.exercises.basics.krasimir.nachev;
 /**
  * Created by IntelliJ IDEA.
  * User: krasi
