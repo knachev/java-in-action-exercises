@@ -91,8 +91,8 @@ public class Exercise1 {
 
        userInfo.askSalary();
        double salary = readIn.nextDouble();
-        pw.write(String.format("\n First Name: " + firstName + "\t Last Name: " + lastName + "\t Job Position: " + jobPosition + "\t Salary: " + salary + " " + "lv." + " " ));
-         pw.write(String.format("The record was created on: " + date + " " +" From user: " + osSystemInfo.getUserName() + " " + "and OS: " + osSystemInfo.getOs() + " " + osSystemInfo.getOsVersion()));
+       pw.write(String.format("\n First Name: " + firstName + "\t Last Name: " + lastName + "\t Job Position: " + jobPosition + "\t Salary: " + salary + " " + "lv." + " " ));
+       pw.write(String.format("The record was created on: " + date + " " +" From user: " + osSystemInfo.getUserName() + " " + "and OS: " + osSystemInfo.getOs() + " " + osSystemInfo.getOsVersion()));
 
 
           pw.flush();
